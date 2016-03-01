@@ -68,6 +68,7 @@ title: OpsJAWS#4参加報告
 
 * 森永さん@クラスメソッド
 * Developers.ioは2300/5500のAWS記事、100万UU
+
 [資料]('https://speakerdeck.com/tmorinaga/opsjaws-number-4-cloudwatch-events-hands-on')
 
 * CloudWatchEventとは
