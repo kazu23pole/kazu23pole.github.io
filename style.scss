@@ -59,12 +59,12 @@ h1 {
 
 h2 {
   font-size: 24px;
-  color: $bgcolor-base;
-  @include border(1px, #000);
 }
 
 h3 {
   font-size: 20px;
+  color: $bgcolor-base;
+  @include border(1px, #000);
 }
 
 h4 {
