@@ -63,10 +63,37 @@ title: OpsJAWS#4参加報告
     * 時間での管理もできる
 
 
-### CloudWatchEventハンズオン
+### CloudWatchEventsハンズオン
 
+* 森永さん@クラスメソッド
+* Developers.ioは2300/5500のAWS記事、100万UU
+* https://speakerdeck.com/tmorinaga/opsjaws-number-4-cloudwatch-events-hands-on
 
+* CloudWatchEventとは
+  * リソースの状態変化(イベント)などを検知して、イベントドリブンでアクションを実行することができる
+  * Lambdaのイベントソースが増えたイメージ
+  * Lambda以外にSNS、Kinesisとの連携、Buildinも可能
+  * 構成要素
+    * イベントソース
+    * ターゲット
+    * ルール
 
+* イベントソース
+  * EC2のStatus
+  * スケジュール(最短5分間隔)
+  * API Call(CloudTrailで拾えるものはだいたい拾える)
+    * ほぼすべてのAPI CallをLambdaで拾える
+  * Auto Scalling
 
+* ターゲット
+  * LambdaFunction
+  * SNS Topic
+  * Kinesis Stream
+  * Built-in Target
 
+* ルール
+  * どんなリソースがどうなったら(イベントソース)、どうするか(ターゲット)
+
+* 使い方
+  * EC2の課金用タグがついてないと起動できないとか
 
