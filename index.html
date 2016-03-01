@@ -7,12 +7,15 @@ layout: default
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <span class="date">
+        Written on {{ post.date | date: "%Y, %m, %d" }}
+      </span>
 
       <div class="entry">
-        {{ post.excerpt }}
+        {{ post.content }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Permalink</a>
     </article>
   {% endfor %}
 </div>
