@@ -63,7 +63,7 @@ h2 {
 
 h3 {
   font-size: 20px;
-  color: $bgcolor-base;
+  background-color: $bgcolor-base;
   @include border(1px, #000);
 }
 
