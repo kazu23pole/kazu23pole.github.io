@@ -13,7 +13,7 @@
 /* BASE RULES */
 /**************/
 
-$bgcolor-base:#dcdcdc;
+$bgcolor-base:#f5f5f5;
 
 @mixin border($bdwidth:1px, $color:#000) {
   border-bottom: $bdwidth solid $color;
