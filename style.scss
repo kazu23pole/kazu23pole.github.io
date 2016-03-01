@@ -15,6 +15,10 @@
 
 $bgcolor-base:#dcdcdc;
 
+@mixin border($bdwidth:1px, $color:#000) {
+  border-bottom: $bdwidth solid $color;
+}
+
 html {
   font-size: 100%;
 }
@@ -56,6 +60,7 @@ h1 {
 h2 {
   font-size: 24px;
   color: $bgcolor-base;
+  @include border(1px, #000);
 }
 
 h3 {
