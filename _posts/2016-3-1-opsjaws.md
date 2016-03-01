@@ -12,7 +12,8 @@ title: OpsJAWS#4参加報告
 
 * AWS SA 船崎さん
 * 構成管理、オペレーションタスクの自動化をいい感じにしてくれるやつ
-* http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-2015-aws-opsworks
+
+[資料](http://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-tech-2015-aws-opsworks)
 
 ### AWS OpsWorks
 
