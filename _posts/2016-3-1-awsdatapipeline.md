@@ -3,11 +3,11 @@ layout: post
 title: AWSDataPipelineを調べてみた
 ---
 
-### ■そういえばData Pipelineってあったよな・・・
+### そういえばData Pipelineってあったよな・・・
 
 AWS使っててとりあえず見たことあったけど使ったことなかったので、調べてみました。
 
-### ■AWS Data Pipeline
+### AWS Data Pipeline
 
 AWS Data Pipelineは、AWSやオンプレでのリソース間データ処理/移動を簡単に設計できる、フルマネージドサービス。
 
