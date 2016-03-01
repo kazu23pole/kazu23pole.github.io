@@ -67,7 +67,7 @@ title: OpsJAWS#4参加報告
 
 * 森永さん@クラスメソッド
 * Developers.ioは2300/5500のAWS記事、100万UU
-* https://speakerdeck.com/tmorinaga/opsjaws-number-4-cloudwatch-events-hands-on
+[資料]('https://speakerdeck.com/tmorinaga/opsjaws-number-4-cloudwatch-events-hands-on')
 
 * CloudWatchEventとは
   * リソースの状態変化(イベント)などを検知して、イベントドリブンでアクションを実行することができる
@@ -96,4 +96,4 @@ title: OpsJAWS#4参加報告
 
 * 使い方
   * EC2の課金用タグがついてないと起動できないとか
-
+  * ガバナンスをうまく効かせるように使える
