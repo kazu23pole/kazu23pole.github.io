@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AWS Data Pipelineを調べてみた
+title: AWSDataPipelineを調べてみた
 ---
 
 #### そういえばData Pipelineってあったよな・・・
